@@ -10,8 +10,7 @@ const rawFrontendUrl = process.env.FRONTEND_URL || ''
 const FRONTEND_URL = rawFrontendUrl.replace(/\/+$/, '')
 const allowedOrigins = [
     FRONTEND_URL,
-    'http://localhost:5173',
-    'http://localhost:5174',
+    'https://task-tracker-livid-two.vercel.app/'
 ].filter(Boolean)
 
 const corsOptions = {
