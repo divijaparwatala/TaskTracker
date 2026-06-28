@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import axios from 'axios'
 import './App.css'
 
-const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8080/api/tasks'
+const apiUrl = import.meta.env.VITE_API_URL || 'https://tasktracker-zw9r.onrender.com/api/tasks'
 const statusOptions = [
   { value: 'pending', label: 'Pending' },
   { value: 'in-progress', label: 'In Progress' },
